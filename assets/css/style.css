@@ -298,6 +298,10 @@ input {
 	line-height: 80px;
 }
 
+#me {
+	margin-top: 200px;
+}
+
 /* CONTACT SEPARATOR */
 #sep {
 	background: url(../img/wall.png) no-repeat center bottom;
@@ -326,7 +330,7 @@ input {
 }
 
 #sep p {
-	color: #404040;
+	color: #2E2E2E;
 }
 
 .media-body h3, p {
@@ -360,6 +364,10 @@ input {
 #port02 h3 {
 	font-weight: 500;
 	letter-spacing: 2px;
+}
+
+#port02 p {
+	color: #414141;
 }
 
 #port03 {
