@@ -325,14 +325,23 @@ input {
 	letter-spacing: 2px;
 }
 
+#sep p {
+	color: #404040;
+}
+
+.media-body h3, p {
+	margin-left: 20px;
+}
+
+
 /* PORT03 */
 #port02 {
 	background: url(../img/portfolio/port02.png) no-repeat center bottom;
-	margin-top: 25px;
 	padding-top: 100px;
+	margin-top: 25px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 550px;
 	width: 100%;
 	color: white;
 	
@@ -353,12 +362,23 @@ input {
 	letter-spacing: 2px;
 }
 
+#port03 {
+	margin-top: 30px;
+	margin-bottom: 50px; 
+}
 
+#port03 .media-body h3, p {
+	margin-right: 20px;
+	/*margin-top: 50px;*/
+}
+
+.portfolio-centered {
+	padding-top: 150px;
+}
 
 /* PORT04 */
 #port04 {
 	background: url(../img/portfolio/port04.jpg) no-repeat center bottom;
-	margin-top: 25px;
 	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
@@ -383,12 +403,77 @@ input {
 	letter-spacing: 2px;
 }
 
+/* PORT06 */
+#port06 {
+	background: url(../img/portfolio/port06.jpg) no-repeat center bottom;
+	padding-top: 30px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 1000px;
+	width: 100%;
+	color: white;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+#port06 h3 {
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+/* PORT07 */
+#port07 {
+	background: url(../img/portfolio/port07.jpg) no-repeat center bottom;
+	padding-top: 250px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 1000px;
+	width: 100%;
+	color: white;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+#port07 h3 {
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+#port07 p {
+	color: #A0A0A0;
+}
+
+#video-heading {
+	display: block;
+}
+
+h3 small {
+	color: #494949;
+}
 
 /* FOOTER */
 #f {
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: #22A7F0;
+	background-color: #459FD2;
 }
 
 #f i {
