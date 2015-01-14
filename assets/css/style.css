@@ -461,12 +461,14 @@ input {
 }
 
 #port07 h3 {
+	margin-left: -40px;
 	font-weight: 500;
 	letter-spacing: 2px;
 }
 
 #port07 p {
-	color: #A0A0A0;
+	margin-left: -40px;
+	color: #8A8A8A;
 }
 
 #video-heading {
